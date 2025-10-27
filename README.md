@@ -156,6 +156,6 @@ This project is licensed under the [MIT License](LICENSE). Feel free to use, mod
 
 **Student developer**
 
-One of my passion projects is Everyone Can Code, an initiative dedicated to making computer science more accessible and inclusive. It started as a student-led organization back in high school, and it’s now evolving into a long-term vision for a diverse and welcoming tech community. While it’s still in the works, the foundation is laid, with plans to grow it into something bigger in the years ahead (nonprofit). I believe coding should be approachable for everyone, no matter their background — and I’m committed to building tools, resources, and spaces that reflect that belief.
+One of my passion projects is Everyone Can Code, an initiative dedicated to making computer science more accessible and inclusive. It started as a student-led organization back in high school, and it’s now evolving into a long-term vision for a diverse and welcoming tech community. While it’s still in the works, the foundation is laid, with plans to grow it into something bigger in the years ahead (nonprofit). In the meantime I practice my skills building tools, resources, and spaces that reflect that belief.
 
 ---
