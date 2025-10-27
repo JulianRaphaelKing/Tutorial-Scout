@@ -1,0 +1,239 @@
+/* Background color */
+.root {
+    -fx-background-color: #F1FAFB;
+}
+
+/* Top bar styling */
+.top-bar-style {
+    -fx-background-color: #F8C16D;
+    -fx-pref-height: 35px;
+    -fx-max-width: Infinity;
+}
+
+/* Application title label */
+.title-label {
+    -fx-font-family: "Fira Sans Extra Condensed Bold Italic";
+    -fx-font-size: 48px;
+    -fx-text-fill: #54AABA;
+    -fx-font-style: italic;
+    -fx-font-weight: 600;
+}
+
+/* Main search input field */
+.custom-text-field {
+    -fx-background-color: white;
+    -fx-border-color: #58A9B9;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-pref-width: 439px;
+    -fx-pref-height: 40px;
+    -fx-font-family: "News Cycle";
+    -fx-font-size: 19.5px;
+    -fx-font-weight: normal;
+    -fx-text-fill: #58A9B9;
+    -fx-alignment: center-left;
+}
+
+/* Search button  */
+.search-button {
+    -fx-background-color: #58A9B9;
+    -fx-text-fill: white;
+    -fx-font-family: "Fira Sans Extra Condensed";
+    -fx-font-size: 24px;
+    -fx-font-weight: 400;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-border-style: solid;
+    -fx-border-width: 1.6;
+    -fx-border-color: #58A9B9;
+    -fx-pref-width: 115px;
+    -fx-pref-height: 40px;
+    -fx-min-width: 115px;
+}
+
+/* Hover state for the search button */
+.search-button:hover {
+    -fx-background-color: white;
+    -fx-text-fill: #58A9B9;
+    -fx-border-color: #58A9B9;
+    -fx-border-width: 1.6;
+    -fx-border-style: solid;
+}
+
+/* Filter card container */
+.filter-card {
+    -fx-spacing: 0;
+}
+
+/* Header section of a filter card */
+.filter-card-header {
+    -fx-background-color: #58A9B9;
+    -fx-padding: 8 12;
+    -fx-background-radius: 8 8 0 0;
+    -fx-border-radius: 8 8 0 0;
+}
+
+/* Text inside the header of a filter card */
+.filter-card-header-text {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-family: "News Cycle";
+    -fx-font-size: 15px;
+}
+
+/* Body section of the filter card */
+.filter-card-body {
+    -fx-background-color: white;
+    -fx-font-family: "News Cycle";
+    -fx-border-color: #58A9B9;
+    -fx-border-width: 2;
+    -fx-border-radius: 0 0 8 8;
+    -fx-background-radius: 0 0 8 8;
+    -fx-padding: 10;
+}
+
+/* Fixed width for the website filter card */
+.filter-box-websites {
+    -fx-pref-width: 240px;
+}
+
+/* Fixed width for the tags & languages filter card */
+.filter-box-tags-languages {
+    -fx-pref-width: 360px;
+}
+
+/* Custom checkboxes */
+.custom-checkbox {
+    -fx-font-family: "News Cycle";
+    -fx-font-size: 15px;
+    -fx-font-weight: 400;
+    -fx-text-fill: #12222A;
+}
+
+/* Styling for the checkbox square */
+.custom-checkbox .box {
+    -fx-background-color: transparent;
+    -fx-border-color: #54AABA;
+    -fx-border-width: 1.5;
+    -fx-border-radius: 2;
+    -fx-min-width: 15;
+    -fx-min-height: 15;
+    -fx-pref-width: 15;
+    -fx-pref-height: 15;
+    -fx-max-width: 15;
+    -fx-max-height: 15;
+}
+
+/* Styling for the checkmark when selected */
+.custom-checkbox:selected .mark {
+    -fx-stroke: #12222A;
+}
+
+/* Result card */
+.result-card {
+    -fx-background-color: white;
+    -fx-border-color: #58A9B9;
+    -fx-border-width: 3;
+    -fx-border-radius: 5 5 5 5;
+    -fx-background-radius: 5 5 5 5;
+    -fx-pref-width: 565px;
+    -fx-pref-height: 180px;
+    -fx-padding: 10 15 10 15;
+    -fx-spacing: 10;
+}
+
+/* Label showing result number */
+.result-label {
+    -fx-text-fill: #54AABA;
+    -fx-font-family: "Fira Sans Extra Condensed";
+    -fx-font-size: 24px;
+    -fx-font-weight: 400;
+}
+
+/* Pill-shaped tag for filters */
+.tag-pill {
+    -fx-background-color: transparent;
+    -fx-border-color: #58A9B9;
+    -fx-border-width: 1.5;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-font-family: "Fira Sans Extra Condensed";
+    -fx-font-size: 15px;
+    -fx-text-fill: #58A9B9;
+    -fx-alignment: center;
+    -fx-pref-width: 80px;
+    -fx-pref-height: 25px;
+    -fx-padding: 2 8;
+}
+
+/* Title of the tutorial shown in a result card */
+.result-title {
+    -fx-text-fill: #0F3637;
+    -fx-font-family: "News Cycle";
+    -fx-font-size: 16px;
+    -fx-font-weight: 700;
+    -fx-alignment: center-left;
+}
+
+/* Summary/snippet of the tutorial */
+.result-summary {
+    -fx-text-fill: #0F3637;
+    -fx-font-family: "News Cycle";
+    -fx-font-size: 14px;
+    -fx-font-weight: 400;
+    -fx-wrap-text: true;
+}
+
+/* Scroll pane styling for result list */
+.results-scroll-pane {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}
+
+/* Make scroll pane content background transparent */
+.results-scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+
+/* Vertical scroll bar width and appearance */
+.results-scroll-pane .scroll-bar:vertical {
+    -fx-pref-width: 8px;
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+}
+
+/* Scrollbar thumb */
+.results-scroll-pane .thumb {
+    -fx-background-color: #58A9B9;
+    -fx-background-insets: 0;
+    -fx-background-radius: 5px;
+}
+
+/* Scrollbar track */
+.results-scroll-pane .track {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+}
+
+/* Hide increment/decrement buttons on scrollbar */
+.results-scroll-pane .increment-button,
+.results-scroll-pane .decrement-button {
+    -fx-padding: 0;
+    -fx-shape: "";
+    -fx-background-color: transparent;
+}
+
+/* Clickable text-style title */
+.result-title-link {
+    -fx-text-fill: #0F3637;
+    -fx-font-family: "News Cycle";
+    -fx-font-size: 16px;
+    -fx-font-weight: 700;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+    -fx-underline: true;
+    -fx-cursor: hand;
+}
