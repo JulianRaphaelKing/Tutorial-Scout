@@ -14,7 +14,7 @@ and presents it in a clean, filterable UI. Users can sort tutorials by difficult
 JavaScript), and source, in a smooth card-style layout.
 
 This project was born out of a desire to reduce the overwhelm of searching for quality learning materials online. 
-It’s also designed with future scalability in mind — with plans to support more sources, 
+It’s also designed with future scalability in mind, with plans to support more sources, 
 video content, and even AI-driven summaries. This app is a practical extension of my mission to make tech more accessible.
 
 
